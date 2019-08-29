@@ -1,5 +1,2 @@
-# hello-world
-
-Hey everyone!
-
-My name is Mikella Dragna and love coffee :-)
+# Repo for ITM352 Fall 2019 labs and assignments 
+Put all my ITM 352 stuff here :-)
