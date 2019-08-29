@@ -1,2 +1,5 @@
 # hello-world
-Just another repository 
+
+Hey everyone!
+
+My name is Mikella Dragna and love coffee :-)
