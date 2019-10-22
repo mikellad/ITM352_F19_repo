@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let TicTacToe = [];
+
+    for (let i = 0; i < 9; i++) {
+        if (Math.random() > 0.5) {
+            TicTacToe[i] = 'x';
+        } else{ 
+            TicTacToe[i] = 'o';
+        }
+    }
+
+    document.write("<div>"); 
+    document.write("<table borders='2'");
+    document.write("<tbody>");
+    // each row 
+    for (let i = 0; i < TicTacToe.length / 3; i++) {
+        let maxCol = (i + 1) * 3;
+        let smartCol = maxCol - 3;
+        document.write(`<tr>`);
+        // for each col
+        for (let i = 0; i < TicTacToe.length / 3; i++) {
+           document.write(`<tr width=>"");${TicTacToe[j]}</td>`);
+        }
+        document.write(`<tr>`);
+    }
+    </script>
+</body>
+</html>
