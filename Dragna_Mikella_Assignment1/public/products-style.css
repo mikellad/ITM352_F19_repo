@@ -1,0 +1,64 @@
+/* 
+Author: Mikella Dragna
+Date: 11/14/19
+Description: css for products page (product_page.html)
+*/
+
+/* make image consisent size */
+img{
+  height: 400px;
+}
+/* make sections (img + price + quantity) have a boarder and background and space between  */
+section.item {
+  width: 300px;
+  margin: 5px auto 5px auto;
+  border: 1px;
+  background-color: gainsboro;
+  padding: 4px;
+}
+/* align glossier shop center */
+h1 {
+  text-align: center;
+}
+/* align thank you center */
+h2 {
+  text-align: center;
+}
+/* alighn products */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* background color */
+body {
+  background-color: pink;
+  font-family: 'Playfair Display', serif;
+
+}
+/* button design*/
+.btn{
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/* button shape and color */
+.btn-1{
+  color: black;
+  background-color: gainsboro;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+/* button size, font size and font family */
+.btn-2{
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.8em;
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+}

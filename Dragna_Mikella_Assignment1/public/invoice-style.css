@@ -1,0 +1,29 @@
+/* 
+Author: Mikella Dragna
+Date: 11/14/19
+Description: css for invoice page 
+*/
+/* font family for page and background for invoice*/
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: pink;    
+}
+/* invoice table color and size */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+/* boarder around */
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+/* color of top of table (item, qty, price) */
+th {
+    background-color: gainsboro;
+}
+/* font family of table */
+body {
+    font-family: 'Playfair Display', serif;
+}
